@@ -8,7 +8,7 @@ import torchvision.transforms as transforms
 from utils import train, set_seed, GaussianBlur
 from multiroot_image_folder import MultirootImageFolder
 
-parser = argparse.ArgumentParser(description='Temporal classification training with headcam data')
+parser = argparse.ArgumentParser(description='Temporal classification training with natural video data')
 parser.add_argument('--data-dirs', nargs='+', help='list of paths to datasets')
 parser.add_argument('--model', default='resnext101_32x8d', choices=['resnext101_32x8d', 'resnext50_32x4d'], help='model')
 parser.add_argument('--seed', default=1, type=int, help='random seed')

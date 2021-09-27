@@ -25,7 +25,7 @@ Here, `frac-retained` is the fraction of the labeled ImageNet training data used
 * The largest, highest performing self-supervised model with the temporal classification head attached (with 16279 outputs): [link](https://drive.google.com/file/d/1AL49wO-hc1m6N2KxKTSjHMTYUIXJkDfV/view?usp=sharing) (1.4 GB)
 * The self-supervised model above with the ImageNet head instead (trained under the linear probe condition: 43.5% top-1): [link](https://drive.google.com/file/d/1faeTesYiBtEgLquI6hjFGzbzx0lslaMC/view?usp=sharing) (372.6 MB)
 
-All other models for which results are reported in the paper are also privately saved in our local HPC cluster. However, I don't have enough disk space on my Google Drive at the moment to share them all publicly. Please let me know if you are interested in any of the other models. I would be happy to share them through other means.
+All other models for which results are reported in the paper are also privately saved in our local HPC cluster. However, I don't have enough disk space on my personal Google Drive at the moment to share them all publicly. Please let me know if you are interested in any of the other models. I would be happy to share them through other means.
 
 ## Data points
 
